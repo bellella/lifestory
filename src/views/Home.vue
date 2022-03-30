@@ -35,6 +35,9 @@
           </li>
         </ul>
         <ul class="third_village">
+                    <li class="ville" style="--left: -1.3; --scale: 5.5">
+            <img src="/images/city2.svg" alt="" />
+          </li>
           <li class="ville" style="--left: -1; --scale: 6">
             <img src="/images/city1.svg" alt="" />
           </li>
@@ -65,61 +68,87 @@
           <li class="ville" style="--left: 18; --scale: 5">
             <img src="/images/city2.svg" alt="" />
           </li>
-          <li class="ville bird" style="--left: 16; --scale: 1; --top: 6">
-            <img src="/images/bird.png" alt="" />
-          </li>
-                    <li class="ville human" style="--scale: .7;">
-            <img src="/images/skate.png" alt="" />
-          </li>
                               <li class="ville" style="--left: 23; --scale: 2">
             <img src="/images/house.png" alt="" />
           </li>
                               <li class="ville" style="--left: 19; --scale: 6">
             <img src="/images/city1.svg" alt="" />
           </li>
+                                        <li class="ville" style="--left: 22; --scale: 6">
+            <img src="/images/city1.svg" alt="" />
+          </li>
+                                                  <li class="ville" style="--left: 25; --scale: 6">
+            <img src="/images/city2.svg" alt="" />
+          </li>
+                                        <li class="ville" style="--left: 28; --scale: 2">
+            <img src="/images/house.png" alt="" />
+          </li>
+                              <li class="ville" style="--left: 30; --scale: 6">
+            <img src="/images/city1.svg" alt="" />
+          </li>
+                                        <li class="ville" style="--left: 29; --scale: 6">
+            <img src="/images/city2.svg" alt="" />
+          </li>
+                                                  <li class="ville" style="--left: 33; --scale: 6">
+            <img src="/images/city2.svg" alt="" />
+          </li>
+                                                  <li class="ville" style="--left: 34; --scale: 6">
+            <img src="/images/city1.svg" alt="" />
+          </li>
+
+
+          <li class="ville bird" style="--left: 16; --scale: 1; --top: 6">
+            <img src="/images/bird.png" alt="" />
+          </li>
+                    <li class="ville human" style="--scale: .7;">
+            <img src="/images/skate.png" alt="" />
+          </li>
         </ul>
         <ul class="japan_village">
-          <li class="ville" style="--left: 10; --scale: 3">
-            <img src="/images/tako.png" alt="" />
+          <li class="ville" style="--left: 12; --scale: 9; --top:0">
+            <img src="https://i.pinimg.com/originals/52/b3/ca/52b3caaa9e283398b6d5b80a11938bed.gif" alt="">
           </li>
-          <li class="ville" style="--left: 14; --scale: 2">
-            <img src="/images/torii.png" alt="" />
+                    <li class="ville" style="--left: 19; --scale: 9; --top:0">
+            <img src="https://i.pinimg.com/originals/52/b3/ca/52b3caaa9e283398b6d5b80a11938bed.gif" alt="">
           </li>
-          <li class="ville" style="--left: 8; --scale: 1.3">
-            <img src="/images/neko.png" alt="" />
+          <li class="ville" style="--left: 23.5; --scale: 4; --top: 1">
+            <img src="https://i.pinimg.com/originals/f2/f3/1b/f2f31baa64307c47661157068d278fd3.gif" alt="">
           </li>
         </ul>
         <ul class="canada_village">
-          <li class="ville" style="--left: 17; --scale: 4">
-            <img src="/images/newyork.png" alt="" />
+          <li class="ville" style="--left: 15; --scale: 9">
+            <img src="https://www.narberthpa.gov/wp-content/uploads/2018/11/LeafGIF.gif" alt="">
           </li>
-          <li class="ville" style="--left: 11.8; --scale: 1.3">
-            <img src="/images/racoon.png" alt="" />
+                    <li class="ville" style="--left: 21; --scale: 9">
+            <img src="https://www.narberthpa.gov/wp-content/uploads/2018/11/LeafGIF.gif" alt="">
           </li>
-          <li class="ville" style="--left: 11; --scale: 1.3">
-            <img src="/images/beaver.png" alt="" />
+                    <li class="ville" style="--left: 17; --scale: 9">
+            <img src="https://www.narberthpa.gov/wp-content/uploads/2018/11/LeafGIF.gif" alt="">
           </li>
-                    <li class="ville" style="--left: 13; --scale: 1.3">
-            <img src="/images/maple-syrup.png" alt="" />
+                    <li class="ville" style="--left: 25; --scale: 9">
+            <img src="https://www.narberthpa.gov/wp-content/uploads/2018/11/LeafGIF.gif" alt="">
           </li>
-                    <li class="ville" style="--left: 14; --scale: 1.3">
-            <img src="/images/maple-leaf.png" alt="" />
+                              <li class="ville" style="--left: 24; --scale: 9">
+            <img src="https://www.narberthpa.gov/wp-content/uploads/2018/11/LeafGIF.gif" alt="">
           </li>
         </ul>
         <ul class="night_village" :style="{ opacity: startNight ? 1 : 0 }">
           <li class="ville moon" style="--left: 10; --scale: 2; --top: 9">
             <img src="/images/moon.png" alt="" />
           </li>
-                              <li class="ville" style="--left: 2; --scale: .3; --top: 11">
+          <li class="ville star" style="--left: 2; --scale: .3; --top: 11">
             <img src="/images/star.png" alt="" />
           </li>
-                    <li class="ville" style="--left: 4; --scale: .5; --top: 7">
+                              <li class="ville star" style="--left: 4; --scale: .5; --top: 7">
             <img src="/images/star.png" alt="" />
           </li>
-                    <li class="ville star2" style="--left: 7; --scale: .6; --top: 10">
+                              <li class="ville star star1" style="--left: 3; --scale: .6; --top: 17">
             <img src="/images/stars.png" alt="" />
           </li>
-           <li class="ville star" style="--left: 8.5; --scale: .4; --top: 19">
+                    <li class="ville star star2" style="--left: 7; --scale: .6; --top: 10">
+            <img src="/images/stars.png" alt="" />
+          </li>
+           <li class="ville star star1" style="--left: 8.5; --scale: .4; --top: 19">
             <img src="/images/stars.png" alt="" />
           </li>
         </ul>
@@ -136,6 +165,10 @@
           <Carousel :items="canadaImages"></Carousel>
                   <span class="btn" @click="closeGallary"></span>
         </div>
+                <div id="studentGallary" ref="studentGallary">
+          <Carousel :items="studentImages"></Carousel>
+                  <span class="btn" @click="closeGallary"></span>
+        </div>
       </div>
 
     <div class="sections" ref="horizonCon">
@@ -144,18 +177,18 @@
       </section>
       <section id="aboutSection">
         <div class="text">
-          <h3>자기소개</h3>
+          <h3>프로필</h3>
           <p>이름 : 최미나</p>
           <p>나이: 93년생 닭띠 게자리 황금돼지</p>
           <p>성남거주</p>
-          <p>개발길드</p>
         </div>
       </section>
       <section id="about2Section">
         <div class="text">
-          <p>이름 : 최미나</p>
-          <p>나이: 30..</p>
-          <p>직업: 개발자</p>
+          <h3>학생시절</h3>
+          <p>공상이 많았다</p>
+          <p>작곡..하려고함</p>
+          <p>외국어를 좋아했다<button class="pic_btn" @click="showGallary('student')">📸</button></p>
         </div>
       </section>
       <section id="japanSection">
@@ -169,16 +202,16 @@
       <section id="canadaSection">
         <div class="text">
           <h3>캐나다 어학연수</h3>
-          <p>왜갔는지 기억이안남</p>
+          <p>영어를 배우기 위해 감</p>
           <p>놀고 먹고 놀고 먹고</p>
-          <p>자주가던 술집이 있다<button class="pic_btn" @click="showGallary('canada')">📸</button></p>
+          <p>3개월 알바<button class="pic_btn" @click="showGallary('canada')">📸</button></p>
         </div>
       </section>
       <section id="devSection">
         <div class="text">
           <h3>운칠기삼 합류 전</h3>
           <p>오래 일하고 싶어서 개발자가 됨</p>
-          <p>개발은 많이 하였으나 리드를 못받았다</p>
+          <p>개발은 많이 하였으나 ..</p>
           <p>회식을 좋아했다</p>
         </div>
       </section>
@@ -193,7 +226,7 @@
       <section id="work2Section">
         <div class="text">
           <h3>이것을 추구합니다</h3>
-          <p>재밌게 일하기</p>
+          <p>행복하게 일하기</p>
           <p>독창성을 장려하는 개발자</p>
           <p>발전,,</p>
         </div>
@@ -201,7 +234,7 @@
       <section id="brandSection">
         <div class="text">
           <h3>당신이 좋아하는 브랜드는? 혹은 좋아하는 영화? 노래? 책은?</h3>
-          <p>다이소</p>
+          <p>쿠팡</p>
           <p>영어공부를 위한 것들</p>
         </div>
       </section>
@@ -233,12 +266,17 @@ export default {
         "/images/canada/canada9.JPG",
         "/images/canada/canada10.JPG",
         "/images/canada/canada11.JPG",
+        "/images/canada/canada12.JPG",
       ],
       japanImages: [
         "/images/japan/japan1.JPG",
         "/images/japan/japan2.JPG",
         "/images/japan/japan3.JPG",
         "/images/japan/japan4.JPG",
+      ],
+      studentImages: [
+        "/images/student/student1.JPG",
+        "/images/student/student2.png",
       ],
       showThirdIndex: 0,
       backgroundColor: "#96c6f1",
@@ -264,7 +302,7 @@ export default {
         scrollTrigger: {
           trigger: "#home",
           pin: true,
-          scrub: 2.5,
+          scrub: 3,
           end: () => "+=" + (panelsContainer.offsetWidth - innerWidth),
         },
       });
@@ -279,12 +317,12 @@ export default {
       tl.call(() => {
         gsap.to("#heroSection .title", { scale: 0, x: 2000, duration: 0.1 });
       }, "start");
-      tl.to(".third_village", { x: -1300 }, "start");
-      tl.to(".second_village", { x: -600 }, "start");
+      tl.to(".third_village", { x: -3000 }, "start");
+      tl.to(".second_village", { x: -800 }, "start");
       tl.to(".first_village", { x: -200 }, "start");
 
-      tl.to(".japan_village", { x: -1300 }, "start");
-      tl.to(".canada_village", { x: -1300 }, "start");
+      tl.to(".japan_village", { x: -3000 }, "start");
+      tl.to(".canada_village", { x: -3000 }, "start");
       tl.to(".first_cloud", { x: -100 }, "start");
       tl.to(".second_cloud", { x: -130 }, "start");
     },
@@ -331,20 +369,13 @@ export default {
           end: () => "+=" + document.querySelector("#japanSection").offsetWidth,
         },
       });
-      tl.to(".japan_village", { opacity: 1, duration: 1 });
+      tl.to(".japan_village", { opacity: 1, duration: 1 }, "start");
     },
     setCanada() {
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: "#canadaSection",
           toggleActions: "play reverse play reverse",
-
-          onLeave: () => {
-            this.backgroundColor = "#82688b";
-          },
-          onLeaveBack: () => {
-            this.backgroundColor = "#96c6f1";
-          },
           start: () =>
             "top top-=" +
             (document.querySelector("#canadaSection").offsetLeft -
@@ -363,13 +394,16 @@ export default {
           toggleActions: "play reverse play reverse",
           onEnter: () => {
             this.startNight = true;
-            gsap.from('.moon', { rotate: 180 , duration: 1})
+            gsap.from('.moon', { rotate: 180 , duration: 1});
+            gsap.from('.star', { y: -200 , duration: .5,ease: 'bounce'});
+            this.backgroundColor = "#82688b";
           },
           onLeave: () => {
             this.backgroundColor = "#484848";
           },
           onLeaveBack: () => {
             this.startNight = false;
+            this.backgroundColor = "#96c6f1";
           },
           onEnterBack: () => {
             this.backgroundColor = "#82688b";
@@ -401,6 +435,7 @@ export default {
     closeGallary() {
       this.$refs.canadaGallary.style.transform = 'scale(0)';
       this.$refs.japanGallary.style.transform = 'scale(0)';
+      this.$refs.studentGallary.style.transform = 'scale(0)';
     }
   },
 };
@@ -422,7 +457,7 @@ export default {
     height: calc(100vh - 200px);
     width: 100%;
     background: #96c6f1;
-    transition: all 0.5s;
+    transition: all 1s;
   }
   .bottom {
     height: 200px;
@@ -526,7 +561,7 @@ section {
 .final_title {
   padding: 1.5em 0;
   width: 100%;
-  font-size: 9em;
+  font-size: 7.5em;
   color: #fff;
   font-weight: bold;
   text-align: center;
@@ -591,11 +626,11 @@ section {
   z-index: 100;
   animation: skate 10s linear infinite;
 }
-.star {
-  animation: 3s blink infinite;
+.star1 {
+  animation: 2s blink infinite;
 }
 .star2 {
-  animation: 3s blink infinite;
+  animation: 2s blink infinite;
   animation-delay: 1s;
 }
 @keyframes skate {
