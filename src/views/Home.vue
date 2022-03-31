@@ -275,7 +275,7 @@ export default {
         "/images/japan/japan4.JPG",
       ],
       studentImages: [
-        "/images/student/student1.JPG",
+        "/images/student/student1.jpg",
         "/images/student/student2.png",
       ],
       showThirdIndex: 0,
@@ -622,7 +622,7 @@ section {
   }
 }
 .human {
-  left: 165vw !important;
+  left: 250vw !important;
   z-index: 100;
   animation: skate 10s linear infinite;
 }
